@@ -95,7 +95,7 @@ a {
 .sign-link:focus {
   color: var(--while-color);
   background-color: var(--pretty-color);
-  background-color:none;
+  /* background-color:none; */
 }
 
 .btn {
