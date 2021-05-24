@@ -3,6 +3,7 @@
   --while-color: #ffffff;
   --grey-color: #757575;
   --black-color: #212121;
+  --blue-color: #2196f3;
 
   --main-font: 'Roboto', sans-serif;
   --accent-font: 'Raleway', sans-serif;
@@ -126,13 +127,13 @@ a {
 .btn:focus,
 .btn:hover {
   color: var(--while-color);
-  background: #2196f3;
+  background: var(--blue-color);
 
   border-radius: 4px;
 }
 
 .feature-title {
-  color: #212121;
+  color: var(--black-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.143;
@@ -141,7 +142,7 @@ a {
 }
 
 .feature-content {
-  color: #866262;
+  color:var(--grey-color)
   font-weight: normal;
   font-size: 14px;
   line-height: 1.171;
@@ -149,7 +150,7 @@ a {
 }
 
 .title {
-  color: #212121;
+  color: var(--black-color);
   font-size: 36px;
   line-height: 42px;
   text-align: center;
